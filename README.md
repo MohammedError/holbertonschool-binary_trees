@@ -19,9 +19,6 @@ Read or watch:
 
 ---
 
-## Learning Objectives
-By the end of this project, you should be able to explain:
-
 ### General
 - What is a **binary tree**
 - The difference between a **binary tree** and a **Binary Search Tree (BST)**
