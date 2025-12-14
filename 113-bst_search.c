@@ -10,6 +10,9 @@
  */
 bst_t *bst_search(const bst_t *tree, int value)
 {
+	if (tree == NULL)
+		return (NULL);
+
 	while (tree)
 	{
 		if (value == tree->n)
@@ -19,5 +22,6 @@ bst_t *bst_search(const bst_t *tree, int value)
 		else
 			tree = tree->right;
 	}
+
 	return (NULL);
 }
