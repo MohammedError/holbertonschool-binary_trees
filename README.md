@@ -94,3 +94,29 @@ time complexity analysis for tree operations.
 | `134-heap_to_sorted_array.c` | Convert Max Binary Heap to sorted array |
 
 ---
+
+## Examples
+
+### Create a Binary Tree Node
+```c
+binary_tree_t *node;
+
+node = binary_tree_node(NULL, 98);
+```
+### Insert Left Child
+```c
+binary_tree_t *root, *left;
+
+root = binary_tree_node(NULL, 98);
+left = binary_tree_insert_left(root, 12);
+```
+### Traversal Example (In-order)
+```c
+binary_tree_t *root;
+
+root = binary_tree_node(NULL, 98);
+binary_tree_insert_left(root, 12);
+binary_tree_insert_right(root, 100);
+
+binary_tree_inorder(root, &print);
+```
