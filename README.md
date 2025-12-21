@@ -120,3 +120,28 @@ binary_tree_insert_right(root, 100);
 
 binary_tree_inorder(root, &print);
 ```
+---
+## Output
+```c 
+12
+98
+100
+```
+---
+## Compilation
+
+### Compile all files using:
+```c
+
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o binary_tree
+```
+---
+## Testing
+## Run Betty
+```c
+betty *.c *.h
+```
+## Run the program
+```c
+./binary_tree
+```
