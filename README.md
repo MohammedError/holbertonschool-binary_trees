@@ -145,3 +145,9 @@ betty *.c *.h
 ```c
 ./binary_tree
 ```
+---
+
+## Contributors 
+
+- **Layla** — [@Laja99](https://github.com/Laja99) 
+- **Mohammed** — [@MohammedError](https://github.com/MohammedError)
